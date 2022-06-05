@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my website </title>
+    <link rel="stylesheet" href="./style.css">
+    <title>portfolio website  </title>
 </head>
 <body>
-    
+    <section class="home">
+        <nav id="nav">
+            <h2>Portfo<span>lio</span></h2>
+            <ul id="list">
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#conta">contact me</a></li>
+            </ul>
+        </nav>
+        <section class="homepage" id="homepage">
+            <div id="name">
+                <h4>Greetings, my name is </h3>
+                <h1>Catherline Mirobe</h1>
+                <h3>I'am a software engineer</h2>
+                <button id="button1">View more about me </button>
+                <p id="msg"></p>
+            </div>
+            
+        </section> 
+</section>
+    <SECTion class="about" id="about">
+        <div id="imag">
+            <img src="./picture.jpg" alt="picture of me">
+        </div>
+        <div id="aboutme">
+            <h1>About me</h1>
+            <h3>Developer & <span>Programmer</span></h3>
+            <p>I am both a front end and backend developer who 
+                is based in kenya. I am currently enrolled in Muringa school 
+                undertating my software development course.I make websites and that are 
+                responsive and can be vied by all users.
+            </p>
+            <button id="button2">Contact Me</button>
+        </div>
+    </SECTion>
+    <section class="services" id="services">
+        <h1><span>O</span>ur services</h1>
+        <div id="servicelist">
+            <div id="webdev">
+                <h3>Web development</h3>
+                <p>We build websites from scrach and host them</p>
+            </div>
+            <div id="app">
+                <h3>App development</h3>
+                <p>We build applications from scrach to fit your needs</p>
+            </div>
+            <div id="hosting">
+                <h3>Hosting</h3>
+                <p>We host websites at a cheap cost </p>
+            </div>
+        </div>
+    </section>
+    <section class="conta" id="conta">
+        <h1><span>C</span>ontact us</h1>
+        <form action="">
+            <input type="email" name="email" id="eamil" placeholder="enter your email">
+            <input type="text" name="comment" id="comment" placeholder="enter your name">
+            <input type="text" name="comment" id="comment" placeholder="order or comment">
+            <input type="submit" name="submit"id= "submit" placeholder="submit">
+        </form>
+        <p id="msg1"></p>
+    </section>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
